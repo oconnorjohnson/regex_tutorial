@@ -6,6 +6,15 @@ This tutorial breaks down the definition of sequenced special characters which s
 
 ```/^#?([a-f0-9]{6}|[a-f0-9]{3})$/```
 
+## Table of Contents
+
+- [Anchors](#anchors)
+- [Quantifiers](#quantifiers)
+- [OR Operator](#or-operator)
+- [Character Classes](#character-classes)
+- [Bracket Expressions](#bracket-expressions)
+- [Greedy and Lazy Match](#greedy-and-lazy-match)
+- 
 ## Regex Components
 
 ### Anchors
@@ -48,3 +57,8 @@ In our regular expression, bracket expressions denote the start of a character c
 
 Finally, we'll talk about greedy and lazy matches. An element is attempted to match as many times as possible in a greedy match. A lazy match, on the other hand, seeks to match an element as little as possible. In our case, the ```?``` stands for a lazy quantifier. Due to the fact that it forces the regular expression engine to match the fewest possible occurrences, this is known as a lazy quantifier. Simply by inserting a ```?```, we can transform this idle match into a greedy one.
 
+## Author 
+
+Daniel Johnson is a coding student at the University of California, Los Angeles, completing a certificate in full-stack web development. 
+
+GitHub: [oconnorjohnson](https://github.com/oconnorjohnson)
